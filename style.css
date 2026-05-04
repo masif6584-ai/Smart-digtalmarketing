@@ -1,25 +1,27 @@
 body {
-    font-family: Arial;
     margin: 0;
-    background: #f4f4f4;
+    font-family: Arial;
+    background: #f5f7fb;
 }
 
+/* HEADER */
 header {
-    background: #0a66c2;
+    background: linear-gradient(135deg, #0a66c2, #003b73);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
 }
 
+/* NAVBAR */
 nav {
-    background: #333;
+    background: #111;
     text-align: center;
 }
 
 nav a {
-    color: white;
-    padding: 12px;
     display: inline-block;
+    color: white;
+    padding: 14px 18px;
     text-decoration: none;
 }
 
@@ -27,42 +29,34 @@ nav a:hover {
     background: #0a66c2;
 }
 
+/* SECTION */
 section {
     padding: 40px;
     text-align: center;
 }
 
+/* CARD */
 .card {
     background: white;
     padding: 20px;
-    margin: 10px auto;
-    max-width: 400px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #ccc;
+    margin: 15px auto;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
+/* BUTTON */
 .btn {
     background: #0a66c2;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 25px;
+    border-radius: 6px;
     text-decoration: none;
-    border: none;
-    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
-input, textarea {
-    width: 80%;
-    padding: 10px;
-    margin: 5px;
-}
-
-footer {
-    background: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
-
+/* WHATSAPP */
 .whatsapp {
     position: fixed;
     bottom: 20px;
@@ -71,4 +65,13 @@ footer {
     color: white;
     padding: 15px;
     border-radius: 50%;
+    font-size: 20px;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
